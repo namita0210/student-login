@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <style>
+        div.first {
+  border-radius: 40px;
+  margin-left: 34%;
+  margin-top:10%;
+  background: linear-gradient(#ca97da, #7981d8 ,#436bc2  );;;
+  padding: 20px;
+  width: 30%;
+}
+body
+{color:white; /* color of all the words in the body */
+  text-align: center;
+}  
+
+input[type=submit] {
+  width: 100%;
+  background-color: #d10c0c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e64f3b;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="first">   
+    <h3><B><u>STUDENT REGISTRATION FORM</u></B></h3>
+    <form action="http://127.0.0.1:5500/portal.html" method="get">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="usename" placeholder="Enter Username"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    Continent
+                </td>
+
+                <td>
+                    <select>
+                        <option>Asia</option>
+                        <option>Europe</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                        <option>Australia</option>
+                        <option>Africa</option>
+                        <option>Antartica</option>
+                    </select>
+                </td>
+
+            </tr>
+            
+            <tr>
+                <td>Confirm</td>
+                <td><input type="submit" placeholder="send"></td>
+            </tr>
+
+            
+        </table>
+
+
+    </form>
+    </div> 
+    </div>
+    
+</body>
+</html>
